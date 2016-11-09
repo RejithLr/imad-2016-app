@@ -11,7 +11,7 @@ var articleOne={
 	date: 'Nov 8, 2016',
 	content:'<p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p>'
 };
-
+/*
 var htmlTemplate= 
  '<html>
     <head>
@@ -48,7 +48,7 @@ var htmlTemplate=
         </div>
     </body>
 </html>';
-
+*/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
