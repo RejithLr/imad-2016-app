@@ -15,6 +15,16 @@ var articleOne={
 	    <p> This is my first article. This is my first article. </p>`
 };
 
+var articleTwo={
+	title: 'Article Two - Rejith',
+	heading: 'Article Two',
+	date: 'Nov 8, 2016',
+	content:`
+	    <p> This is my second article. This is my second article. </p> 
+	    <p> This is my second article. This is my second article. </p> 
+	    <p> This is my second article. This is my second article. </p>`
+};
+
 function createTemplate(data){
     
     var title = data.title;
@@ -70,7 +80,10 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/article-one', function(req,res){
        //res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
        res.send(createTemplate(articleOne));
-       
+});
+
+app.get('/article-two', function(req,res){
+       res.send(createTemplate(articleTwo));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
