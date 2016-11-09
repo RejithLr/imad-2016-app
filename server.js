@@ -33,7 +33,7 @@ var articles = {
 	    <p> This is my second article. This is my second article. </p> 
 	    <p> This is my second article. This is my second article. </p>`
 }
-}
+};
 
 function createTemplate(data){
     
