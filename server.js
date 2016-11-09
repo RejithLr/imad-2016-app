@@ -26,7 +26,7 @@ function createTemplate(data){
      `<html>
         <head>
             <title>
-                Article One
+                ${title}
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="/ui/style.css" rel="stylesheet" />
@@ -39,21 +39,13 @@ function createTemplate(data){
                 </div>
                 <hr/>
                 <h3>
-                    Article One
+                    ${heading}
                 </h3>
                 <div>
-                   Nov 4, 2016 
+                   ${date}
                 </div>
                 <div>
-                    <p>
-                        This is my first article. This is my first article.
-                    </p>
-                    <p>
-                        This is my first article. This is my first article.
-                    </p>
-                    <p>
-                        This is my first article. This is my first article.
-                    </p>
+                    ${content}
                 </div>
             </div>
         </body>
