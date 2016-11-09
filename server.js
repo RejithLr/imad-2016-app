@@ -4,14 +4,14 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+/*
 var articleOne={
 	title: 'Article One - Rejith',
 	heading: 'Article One',
 	date: 'Nov 8, 2016',
 	content:'<p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p>'
 };
-/*
+
 var htmlTemplate= 
  '<html>
     <head>
