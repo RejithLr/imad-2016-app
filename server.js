@@ -12,7 +12,7 @@ var articleOne={
 	content:'<p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p> <p> This is my first article. This is my first article. </p>'
 };
 
-var htmlTemple= 
+var htmlTemplate= 
  '<html>
     <head>
         <title>
